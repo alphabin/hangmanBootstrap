@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Hangman (AJAX,GET API,Javascript)</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <video autoplay loop muted poster="" id="background">
+        <source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
+    </video>
+    <div id="game"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 hidden-md"></div>
+            <div class="col-md-6">
+                <div class="jumbotron vertical-center mainJumbo">
+                    <h1 class="mainHeader">NotEasy Hangman</h1>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <span id="gameBoard">
+                        <span id="hangmanWord"></span>
+                        <div>
+                            <span id="correctKey"> </span>
+                            <span id="badKey"> </span>
+                        </div>
+                    </span>
+                    <span>
+
+                        <div id="word"></div>
+                    </span>
+                </div>
+            </div>
+            <div class="col-md-3 hidden-md"></div>
+        </div>
+        <div class="row" id="definition">
+
+            <div class="col-md-12">
+                <div class="jumbotron vertical-center jumboSecond" id="changeBack" style="opacity: 0;">
+                    <div>
+                        <div id="WebPage"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+    <script src="./assets/javascript/game.js"></script>
+</body>
+
+</html>

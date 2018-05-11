@@ -1,0 +1,65 @@
+.hangDisplay{
+    letter-spacing: 10px;
+}
+
+#background {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: cover;
+}
+
+
+p{
+    color: teal
+}
+
+#badKey{
+    color: red !important;
+}
+
+#correctKey
+{
+    color: green !important;
+}
+
+
+#gameBoard{
+    background-color: darksalmon;
+}
+
+.jumbotron
+{
+    margin-top: 5%;
+    text-align: center;
+}
+
+.mainHeader{
+    color: firebrick;
+    border-bottom: 3px dotted firebrick;
+}
+
+.mainJumbo{
+    background-image: url(https://media.giphy.com/media/DPx0l67vZfYsg/200.gif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  
+}
+
+.jumboSecond{
+    background-image: url(https://media.tenor.com/images/1a31aa8b1bac369fc45f7c08ff0d72b2/tenor.gif);
+}
+
+.hangDisplay{
+    color: greenyellow;
+    background-color: black;
+    background-blend-mode: color-burn;
+}
