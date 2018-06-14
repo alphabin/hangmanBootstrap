@@ -21,7 +21,7 @@ var input = {
 //WordChoice Validation
 var wordChoise =
     {
-        rawRequestURL: "http://api.wordnik.com/v4/words.json/randomWords?hasDictionaryDef=true&minCorpusCount=0&minLength=4&maxLength=8&limit=1&api_key=a2a73e7b926c924fad7001ca3111acd55af2ffabf50eb4ae5",
+        rawRequestURL: "http://api.wordnik.com/v4/words.json/randomWords?hasDictionaryDef=true&minCorpusCount=0&minLength=4&maxLength=8&limit=1&api_key=ea4ea80435960146b90080da3d1040adfc7eab37510b972b3",
         getRandomWord: function () {
             $.ajax({
                 dataType: "json",
